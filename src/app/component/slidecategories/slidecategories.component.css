@@ -1,0 +1,30 @@
+*, :focus {
+    outline: 0!important;
+  }
+  .menu-second{
+    width: 261px;
+    height: 100%;
+    position: fixed;
+    background-color: #f8f8f8;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+    left: 0;
+    top: 50px;
+    z-index: 50;
+    overflow-y: auto;
+    padding-bottom: 100px;
+  }
+  .menu-second.closed-second{ 
+    left: -261px; 
+  }
+  .cate_menu{
+    list-style-type: none;
+    padding: 0;
+    background-color: #f8f8f8;
+  }
+  .menu-second .container-fluid ul li{
+    width: 50%;
+    margin: 0 auto 24px;
+    float: left;
+    text-align: center;
+  }

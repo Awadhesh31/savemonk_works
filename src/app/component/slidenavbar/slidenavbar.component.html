@@ -1,0 +1,55 @@
+
+<!-- Shadow Code Started -->
+<div id="toggle" style="display: block;"></div>
+<!-- Shadow Code End -->
+<!-- SlideNav Bar Code Started -->
+  
+  <!-- Profile area code started -->
+  <div class="menu closed">
+    <ul class="profile_details">
+      <li>
+        <img src="https://semantic-ui.com/images/avatar2/large/matthew.png" class="profile_img">
+        <p class="profile_name">awadhesh kumar</p>
+        <p class="profile_see">See profile</p>
+      </li>
+    </ul>
+    <ul class="profile_menu">
+      <li [routerLink]="['/']" class="limenu" id="go_home">
+        <p class="profile_name">Home</p>
+      </li>
+      <li [routerLink]="['/awad']" class="limenu" id="open_second">
+        <p class="profile_name_inactive">Categories</p>
+      </li>
+      <li [routerLink]="['/']" class="limenu">
+        <p class="profile_name_inactive">Top Store</p>
+      </li>
+      <li [routerLink]="['/awad']" class="limenu">
+        <p class="profile_name_inactive">Deals Of The Day</p>
+      </li>
+      <li [routerLink]="['/']"  class="limenu">
+        <p class="profile_name_inactive profile_menu_text_green p_fa_mobile">
+          <i class="fa fa-mobile" aria-hidden="true"></i>
+          <small>Download App</small>
+        </p>
+      </li>
+    </ul>
+    <ul class="profile_menu_bottom">
+      <li [routerLink]="['/']">
+        <span class="profile_name">
+          <img _ngcontent-c2="" class="brand_logo" src="https://d1y6bibefcioc9.cloudfront.net/img/mainlogo.svg">
+        </span>
+        <span class="brand_bottom_text">setting</span>
+        <span class="brand_bottom_text">Help</span>
+        <span class="brand_bottom_text">
+          <i class="fa fa-power-off" aria-hidden="true"></i>
+        </span>
+      </li>
+    </ul>
+  </div>
+  <!-- Profile area code end -->
+
+  <!-- Categories area code start -->
+  <app-slidecategories></app-slidecategories>
+  <!-- Categories area code end -->
+
+<!-- SlideNav Bar Code End -->
